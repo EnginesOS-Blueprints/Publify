@@ -1,6 +1,8 @@
 name: Publify-test
-framework: rails3
-services:
+framework:
+ type: rails3
+ runtime: Ruby1.9
+buildpack: git://git@54.79.79.134/ruby_buildpack.gitservices:
  publifydb-test: mysql
 requirements:
  running
