@@ -1,0 +1,16 @@
+name: Publify-test
+framework: rails3
+services:
+ publifydb-test: mysql
+requirements:
+ staging:
+  ubuntu:
+   - libxslt1-dev
+
+hooks:
+ pre-staging:
+  - bash stackato-pre-setup.sh
+ post-staging:
+  - bash stackato-setup.sh
+ pre-running:
+  - sh completeinstall.sh
