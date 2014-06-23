@@ -3,7 +3,7 @@ framework: rails3
 services:
  publifydb-test: mysql
 requirements:
- staging:
+ running
   ubuntu:
    - libxslt1-dev
 
