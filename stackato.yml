@@ -5,6 +5,7 @@ framework:
 buildpack: git://git@54.79.79.134/ruby_buildpack.git
 services:
  publifydb-test: mysql
+ uploads-test: filesystem
 requirements:
  running:
   ubuntu:
