@@ -1,4 +1,5 @@
 name: Publify-test
+memory: 128
 framework:
  type: rails3
  runtime: ruby19
