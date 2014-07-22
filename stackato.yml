@@ -3,14 +3,13 @@ memory: 128
 framework:
  type: rails3
  runtime: ruby19
-buildpack: git://git@54.79.79.134/ruby_buildpack.git
 services:
  publifydb-test: mysql
  uploads-test: filesystem
 requirements:
  running:
   ubuntu:
-   - libxslt1-dev
+   - libxslt1-dev 
 
 hooks:
  pre-staging:
