@@ -5,11 +5,7 @@ framework:
  runtime: ruby19
 services:
  publifydb-test: mysql
- uploads-test: filesystem
-requirements:
- running:
-  ubuntu:
-   - libxslt1-dev 
+ publifyfs-test: filesystem
 
 hooks:
  pre-staging:
