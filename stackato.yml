@@ -6,7 +6,7 @@ framework:
 services:
  publifydb-test: mysql
  publifyfs-test: filesystem
-workerports: 80 443 
+workerports: 443 
 
 hooks:
  pre-staging:
