@@ -4,8 +4,8 @@ framework:
  type: rails3
  runtime: ruby19
 services:
- publifydb-test: mysql
  publifyfs-test: filesystem
+ publifydb-test: mysql
 workerports: 443 
 
 hooks:
