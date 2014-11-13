@@ -1,2 +1,2 @@
 ReadMe for Publify
-Rails 3 based blog software uses static fs and database 
+Rails 4 based blog software uses static fs and database 
